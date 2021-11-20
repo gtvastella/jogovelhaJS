@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+	<head>
+		<title>Jogo da velha</title>
+		<meta charset="UTF-8">
+
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+
+		<link rel="stylesheet" href="style.css">
+
+		<script defer src="script.js"></script>
+
+
+		</head>
+	
+	<body>	
+
+	
+		<header class="cabecalho" >		
+			<h2>Menu de manipulação geral da página</h2>
+			<div id="menuLeft">
+				
+				
+			</div>
+			
+			<div class="historicoTexto">
+				<img src='./icons/jogo.png' class='jogoIcon'> Jogo da Velha
+			</div>			
+			
+			<div id="menuRight">
+		
+			</div>			
+		</header>	
+		<section>
+	
+			
+				<div id="divInfo">
+					<div id="statusJogo"><img src='./icons/waiting.png' class='jogoIcon'> Clique em uma casa para iniciar</div>
+				</div>	
+
+			<div id="tabelaJogo">
+				<table id ="tabela">
+					
+					<tr class='linhaValores'>
+						<td class='caixa' id ='caixa_1'></td>
+						<td class='caixa' id ='caixa_2'></td>
+						<td class='caixa' id ='caixa_3'></td>
+						
+					</tr>
+					<tr class='linhaValores'>
+						<td class='caixa' id ='caixa_4'></td>
+						<td class='caixa' id ='caixa_5'></td>
+						<td class='caixa' id ='caixa_6'></td>
+						
+					</tr>
+					<tr class='linhaValores'>
+						<td class='caixa' id ='caixa_7'></td>
+						<td class='caixa' id ='caixa_8'></td>
+						<td class='caixa' id ='caixa_9'></td>
+						
+					</tr>
+
+
+				</table>
+
+			</div>	
+
+			<div id="divReiniciar">
+					<div id="reiniciar"> <img src='./icons/restart.png' class='jogoIcon'> Clique para reiniciar</div>
+				</div>	
+
+				
+		</section>
+
+	</body>	
+</html>
